@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Cake Shop Game</h1>
+        
+        <div id="orders-container">
+            <h2>Customer Orders</h2>
+            <div id="customer-order"></div>
+        </div>
+
+        <div id="cakes-container">
+            <h2>Choose Cake</h2>
+            <button class="cake-option" data-cake="chocolate">Chocolate Cake</button>
+            <button class="cake-option" data-cake="vanilla">Vanilla Cake</button>
+            <button class="cake-option" data-cake="fruit">Fruit Cake</button>
+            <button class="cake-option" data-cake="strawberry">Strawberry Cake</button>
+        </div>
+
+        <div id="toppings-container">
+            <h2>Select Topping</h2>
+            <button class="topping-option" data-topping="chocolate-chips">Chocolate Chips</button>
+            <button class="topping-option" data-topping="sprinkles">Sprinkles</button>
+            <button class="topping-option" data-topping="nuts">Nuts</button>
+        </div>
+
+        <div id="creams-container">
+            <h2>Select Cream</h2>
+            <button class="cream-option" data-cream="whipped-cream">Whipped Cream</button>
+            <button class="cream-option" data-cream="buttercream">Buttercream</button>
+            <button class="cream-option" data-cream="cream-cheese">Cream Cheese</button>
+        </div>
+
+        <div id="game-status">
+            <p id="score">Score: 0</p>
+            <p id="timer">Time: 30</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
+
